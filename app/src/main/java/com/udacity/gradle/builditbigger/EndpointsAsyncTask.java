@@ -51,7 +51,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
             return myApiService.sayHi(name).execute().getData();
         } catch (IOException e) {
             Log.d("WWD", "got exception " + e.getMessage());
-            return e.getMessage();
+            return null;
         }
     }
 
