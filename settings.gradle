@@ -1,0 +1,2 @@
+include ':app:AndroidActivityLibrary'
+include ':app', ':backend', ':javaJokes'
